@@ -1,0 +1,76 @@
+@import url(//db.onlinewebfonts.com/c/c68e21ad1a10803b1ef491fd0392b067?family=SB+Sans+Text);
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    position: relative;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #030C1A;
+    background-blend-mode: multiply, normal;
+    scroll-behavior: smooth;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App-container-title {
+    background: linear-gradient(89.14deg, #6624FA 5.89%, #2BFDCC 81.79%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    font-weight: 300;
+    font-size: 64px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translate(0, -50%);
+    transition: all 1s ease 0s;
+}
+
+.banner-wrapper {
+    width: 100%;
+    /*height: 200vh;*/
+    /*min-height: 200vh;*/
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.media-wrapper {
+    position: static;
+    height: 200vh;
+    width: 100%;
+}
+
+.media-wrapper::before {
+    content: '';
+    display: block;
+    width: 0;
+    height: 530vh;
+}
+
+.content {
+    overflow: hidden;
+    position: relative;
+    height: 600vh;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix:after,
+.clearfix:before {
+    content: " ";
+    display: table;
+}

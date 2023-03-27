@@ -1,0 +1,180 @@
+.changes-in-advertising {
+    position: fixed;
+    top: 20%;
+    left: 0;
+    right: 0;
+}
+
+.changes-in-advertising__container {
+    padding: 0 32%;
+}
+
+.changes-in-advertising__container-title__none {
+    opacity: 0;
+}
+
+.changes-in-advertising__container-title {
+    padding-top: 30%;
+    margin-top: 30%;
+    opacity: 0;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 72px;
+    background: linear-gradient(89.14deg, #6624FA 5.89%, #2BFDCC 81.79%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    transition: all 2s ease 0s;
+
+}
+
+
+.changes-in-advertising__container-paragraph {
+    opacity: 0;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    transition: all 2s ease 0s;
+    padding-bottom: 40%;
+}
+
+.changes-in-advertising__container-cards {
+
+}
+
+.container-cards__card-l {
+    opacity: 0;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 60%;
+    transform: rotate(0deg);
+    transition: all 1s ease 0s;
+}
+
+.container-cards__card-r {
+    opacity: 0;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 60%;
+    transform: rotate(0deg);
+    transition: all 1s ease 0s;
+}
+
+.container-cards__card {
+    opacity: 0;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 60%;
+    transform: rotate(0deg);
+    transition: all 1s ease 0s;
+}
+
+.container-cards__card-main {
+    background: linear-gradient(190deg, #6624FA -17.23%, #2BFDCC 100%);
+    opacity: 0.97;
+    transition: all 1s ease 0s;
+    width: 316px;
+    height: 500px;
+    border-radius: 16px;
+    margin: 0 auto;
+    border: 2px solid #2BFDCC;
+}
+
+.card__color {
+    opacity: 1;
+    background: linear-gradient(170deg, #EEF3FF 17.23%, #ad2bfd 120%);
+}
+
+.container-cards__card-main h5 {
+    opacity: 3;
+    font-family: 'SB Sans Display';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 147.619px;
+    line-height: 108px;
+    color: #2BFDCC;
+    margin: 30% 0 10% 0;
+}
+
+.container-cards__card-main p {
+    font-family: 'SB Sans Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+.container-cards__card-l img {
+    border-radius: 16px;
+}
+
+.container-cards__card-r img {
+    border-radius: 16px;
+}
+
+.container-cards__card img {
+    border-radius: 16px;
+}
+
+.one-left {
+    /*transform: matrix(-1.1, 0.1, -0.05, -1, -22, 25);*/
+    transform: rotate(-4deg);
+    top: 62%;
+    right: 2%;
+}
+
+.two-left {
+    /*transform: matrix(-1, 0.14, -0.15, -1, -67, 57);*/
+    transform: rotate(-8deg);
+    top: 65%;
+    right: 3%;
+}
+
+.three-left {
+    /*transform: matrix(-1.03, 0.2, -0.2, -1, -81, 110);*/
+    transform: rotate(-12deg);
+    top: 69%;
+    right: 4%;
+}
+
+.one-right {
+    /*transform: matrix(1.1, 0.1, 0.05, -1, 22, 25);*/
+    transform: rotate(4deg);
+    top: 62%;
+    left: 2%;
+}
+
+.two-right {
+    /*transform: matrix(1, 0.14, 0.15, -1, 67, 57);*/
+    transform: rotate(8deg);
+    top: 65%;
+    left: 3%;
+}
+
+.three-right {
+    /*transform: matrix(1.03, 0.2, 0.2, -1, 81, 110);*/
+    transform: rotate(12deg);
+    top: 69%;
+    left: 4%;
+}
+
+.opacity-true {
+    opacity: 1;
+    padding-top: 0;
+}
+
+.opacityTwo-true {
+    opacity: 1;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.opacityThree-true {
+    top: 80%;
+}
+

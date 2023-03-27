@@ -1,0 +1,83 @@
+.strategy-development {
+    opacity: 0;
+    scale: 0;
+    bottom: 2%;
+    right: 0;
+    left: 0;
+    position: fixed;
+    transition: all 1s ease 0s;
+    overflow-x: clip;
+}
+
+/*.strategy-development__container {*/
+/*}*/
+
+.strategy-development__container-swiper {
+    /*display: flex;*/
+    position: relative;
+}
+
+.position-true {
+    opacity: 1;
+    scale: 1;
+    transition: all 1s ease 0s;
+    transform: scale(1);
+    bottom: 20%;
+    left: 0;
+    right: 0;
+    position: fixed;
+}
+
+.strategy-development__container-swiper__card {
+    border-radius: 16px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 60%;
+}
+
+.strategy-development__container-swiper__card img {
+    border-radius: 16px;
+}
+
+.strategy-development__container-description {
+    padding: 3% 40% 0 40%;
+    text-align: center;
+    font-family: 'SB Sans Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #222458;
+}
+
+.strategy-development__container-buttons-slider {
+    position: absolute;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    left: 35%;
+    /*bottom: 200%;*/
+}
+
+.buttons-slider__button {
+    background: #EEF3FF;
+    border-radius: 70px;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    border: none;
+}
+
+.slide-next {
+
+}
+
+.slide-prev {
+    /*bottom: 20%;*/
+    /*right: 62%;*/
+}
+
+.buttons-slider__button:hover {
+    background: #222458;
+    color: white;
+}

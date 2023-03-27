@@ -1,0 +1,95 @@
+.App {
+    text-align: center;
+    /*width: 1440px;*/
+    margin: 0 auto;
+}
+
+.App-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes circleOne {
+    0% {
+        filter: blur(128.591px);
+        height: 500px;
+    }
+    50% {
+        filter: blur(190.591px);
+        height: 740px;
+    }
+
+}
+
+.circleOne {
+    transform: translate(-50%);
+    opacity: .5;
+    filter: blur(128.591px);
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    position: fixed;
+    right: 23%;
+    bottom: 80%;
+    animation: circleOne 3s infinite linear;
+    background: radial-gradient(574.53% 338.31% at 35.54% 31.16%, #222458 0%, #00adee 49.48%, #662895 90.1%);
+
+}
+
+@keyframes circleTwo {
+    0% {
+        filter: blur(140.591px);
+        width: 200px;
+        height: 200px;
+    }
+    50% {
+        filter: blur(190.591px);
+        width: 400px;
+        height: 400px;
+    }
+}
+
+.circleTwo {
+    background: radial-gradient(181.19% 885.66% at 43.43% 65.11%, #00e8ff 23%, rgb(0 252 68 / 60%) 53.28%, rgb(0 226 248 / 63%) 90.1%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    filter: blur(146.591px);
+    border-radius: 252.14px;
+    transform: rotate(-47.32deg);
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    top: 82%;
+    left: 10%;
+    animation: circleTwo 3s infinite linear;
+    /*transition: all 1s ease 0s*/
+}
+
+@keyframes circleThree {
+    0% {
+        filter: blur(140.591px);
+        width: 270px;
+        height: 280px;
+    }
+    50% {
+        filter: blur(190.591px);
+        width: 450px;
+        height: 440px;
+    }
+
+}
+
+.circleThree {
+    background: radial-gradient(181.19% 885.66% at 43.43% 65.11%, rgb(22 174 110 / 60%) 0%, rgba(67, 237, 176, 0.6) 51.28%, rgba(18, 34, 176, 0.6) 90.1%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    filter: blur(150.591px);
+    border-radius: 252.14px;
+    transform: rotate(-47.32deg);
+    width: 270px;
+    height: 280px;
+    position: fixed;
+    right: 15%;
+    top: 95%;
+    animation: circleThree 3s infinite linear;
+    /*transition: all 1s ease 0s*/
+}

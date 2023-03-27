@@ -1,0 +1,35 @@
+.info-cards__container {
+    display: flex;
+    justify-content: center;
+    transition: all 1s ease 0s;
+}
+
+.info-cards__container-column {
+    margin-right: 20px;
+
+}
+
+.info-cards__container-column:nth-child(odd) {
+    margin-right: 20px;
+    margin-top: 20rem;
+    transition: all 1s ease 0s;
+}
+
+.info-cards__container-column:last-child {
+    margin-right: 0;
+}
+
+.info-cards__container-column__card {
+    margin-bottom: 10px;
+    border-radius: 16px;
+}
+
+.mpm {
+    background: radial-gradient(244.22% 128.35% at 121.99% -8.4%, #CFA2F2 1.56%, #492B96 96.35%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, rgba(255, 255, 255, 0.03);
+    background-blend-mode: hard-light, normal;
+    backdrop-filter: blur(10px);
+}
+
+.info-cards__container-column__card img {
+    border-radius: 16px;
+}
